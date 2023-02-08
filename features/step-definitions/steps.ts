@@ -22,7 +22,7 @@ When('I search for season {string}', async (season: number) => {
   apiResponse = response.text;
 });
 Then(
-  'there should be {string} in the list returned',
+  'there should be {string} circuits in the list returned',
   async (numberOfCircuits: number) => {
     //format number of series to be check against the response
     var series = 'total="' + numberOfCircuits + '"';

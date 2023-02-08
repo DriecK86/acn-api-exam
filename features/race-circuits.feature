@@ -10,7 +10,7 @@ Feature: CircuitsApi
         # When I retrieve the circuit list for that season
         # and When is/are steps
         When I search for season "<season>"
-        Then there should be "<numberOfCircuits>" in the list returned
+        Then there should be "<numberOfCircuits>" circuits in the list returned
         Examples:
             | season | numberOfCircuits |
             | 2017   | 20               |
