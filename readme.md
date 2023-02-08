@@ -25,5 +25,5 @@ URL: https://ergast.com/api/f1
 ## Test report
 
 - after the test finished a folder .tmp will be created.
-- inside of that head to report where the index of the html report.
-- using `live-server` extenstion right click the index.html then select `Open with Live Server` to view in the browser.
+- inside of that, head to report where the index of the html report resides.
+- using `live-server` extenstion right click the `index.html` and select `Open with Live Server` to view in the browser.
