@@ -9,11 +9,13 @@ Feature: CircuitsApi
         Given that I visit the URL for Formula One race "https://ergast.com/api/f1"
         # When I retrieve the circuit list for that season
         # and When is/are steps
-        When I search for season "<season>" and circuits "<numberOfCircuits>"
-        Then there should be a list returned from that search
+        When I search for season "<season>"
+        Then there should be "<numberOfCircuits>" in the list returned
         Examples:
             | season | numberOfCircuits |
             | 2017   | 20               |
             | 2016   | 21               |
             | 1966   | 9                |
-            | 1950   | 8                |
+            #I had changed the number of circuits from 8 to 7
+            #since 1950 has a total of 7 circuits
+            | 1950   | 7                |
