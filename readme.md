@@ -19,7 +19,7 @@ URL: https://ergast.com/api/f1
 - download and install node from this [link](https://nodejs.org/en/download/)
 - download and install yarn from this [link](https://yarnpkg.com/)
 - download and install git from this [link](https://yarnpkg.com/)
-- clone this report and type `yarn`
+- clone this repor and type `yarn`
 - then run test via `yarn api:wdio`
 
 ## Test report
